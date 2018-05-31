@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Page not structured the way it should have been. 
+    If I were to do it again, I would create an invisible container for the content dimensions
+    and keep the header and footer background outside of the content container. This is something
+    that I still plan to do-->
+
+<head>
+    <meta charset="UTF8">
+    <title>Dan Homoncik</title>
+<!--CSS reset, while working, is currently commented out as certain styles are being overridden to the design specs-->
+<!--   <link rel="stylesheet" href="assets/css/reset.css">-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+    
+    <div class="clearfix">
+        <header class="top-header">
+            <div class="homoncik">
+                <h1 class="name-centering">Dan Homoncik</h1>
+            </div>           
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="index.html">About</a> |
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a> |
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </div>
+
+    <section class="clearfix">
+        <div class="section-margin">
+            <div class="section-header">
+                <h1>Portfolio</h1>
+            </div>
+            <!--considered 3x3 table, but likely wiser to use columns, especially as portfolio grows-->
+            <div class="row">
+                <div class="column"><img src="assets/images/Dannyboy.jpg">
+                    <div class="portfolio-container">Hangman</div>
+                </div>
+                <div class="column"><img src="assets/images/Dannyboy.jpg">
+                    <div class="portfolio-container">RPG Game</div>
+                </div>
+                <!--<div class="column"><img src="assets/images/Dannyboy.jpg"></div>-->
+            </div>
+            <div class="row">
+                <div class="column"><img src="assets/images/Dannyboy.jpg">
+                    <div class="portfolio-container">Trivia Game</div>
+                </div>
+                <div class="column"><img src="assets/images/Dannyboy.jpg">
+                    <div class="portfolio-container">Info Widget</div>
+                </div>
+                <!--<div class="column"><img src="assets/images/Dannyboy.jpg"></div>-->
+            </div>
+            <div class="row">
+                <div class="column"><img src="assets/images/Dannyboy.jpg">
+                    <div class="portfolio-container">Rock Paper Scissors</div>
+                </div>
+                <!--<div class="column"><img src="assets/images/Dannyboy.jpg"></div>
+                <div class="column"><img src="assets/images/Dannyboy.jpg"></div>-->
+            </div>
+        </div>
+    </section>
+    
+    <footer>Copyright Dan Homoncik 2018</footer>
+
+</body>
+
+</html>
